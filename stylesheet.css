@@ -1,5 +1,5 @@
 body {
-  /* background-color: #FFDAB9;	 */
+  /*background-color: #FFDAB9;	*/
   background-color: #000;
   -webkit-transition: background-color linear 5s;
   -moz-transition: background-color linear 5s;
@@ -13,7 +13,6 @@ body {
 }
 .peach {
   background-color: #5408cf;
-  transition: 1s;
 }
 .peach-after {
   -webkit-animation: peach_alive linear 8s infinite;
@@ -26,91 +25,71 @@ body {
 @-webkit-keyframes peach_alive {
   0% {
     background-color: #6a1dd6;
-    transition: 1s ease-in-out;
   }
   25% {
     background-color: #7f33df;
-    transition: 1s ease-in-out;
   }
   50% {
     background-color: #9349e8;
-    transition: 1s ease-in-out;
   }
   75% {
     background-color: #b87af6;
-    transition: 1s ease-in-out;
   }
   100% {
     background-color: #c99ef9;
-    transition: 1s ease-in-out;
   }
 }
 @-moz-keyframes peach_alive {
   0% {
     background-color: #6a1dd6;
-    transition: 1s ease-in-out;
   }
   25% {
     background-color: #7f33df;
-    transition: 1s ease-in-out;
   }
   50% {
     background-color: #9349e8;
-    transition: 1s ease-in-out;
   }
   75% {
     background-color: #b87af6;
-    transition: 1s ease-in-out;
   }
   100% {
     background-color: #c99ef9;
-    transition: 1s ease-in-out;
   }
 }
 
 @-o-keyframes peach_alive {
   0% {
     background-color: #6a1dd6;
-    transition: 1s ease-in-out;
   }
   25% {
     background-color: #7f33df;
-    transition: 1s ease-in-out;
   }
   50% {
     background-color: #9349e8;
-    transition: 1s ease-in-out;
   }
   75% {
     background-color: #b87af6;
-    transition: 1s ease-in-out;
   }
   100% {
     background-color: #c99ef9;
-    transition: 1s ease-in-out;
   }
 }
 
 @-ms-keyframes peach_alive {
   0% {
     background-color: #6a1dd6;
-    transition: 1s ease-in-out;
   }
   25% {
     background-color: #7f33df;
-    transition: 1s ease-in-out;
   }
   50% {
     background-color: #9349e8;
-    transition: 1s ease-in-out;
   }
   75% {
     background-color: #b87af6;
-    transition: 1s ease-in-out;
   }
   100% {
     background-color: #c99ef9;
-    transition: 1s ease-in-out;
   }
 }
 
@@ -1326,7 +1305,7 @@ o @keyframes bannar_come {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   border-color: transparent;
-  box-shadow: 0px 4px 8px rgba(6, 28, 224, 0.863);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.863);
   color: #fff;
   background-color: #033592;
 }
